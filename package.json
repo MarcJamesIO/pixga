@@ -11,7 +11,10 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.11"
+    "next": "14.2.11",
+    "phaser": "^3.85.1",
+    "phaser3-rex-plugins-types": "^0.2.0",
+    "firebase": "^10.13.0"
   },
   "devDependencies": {
     "postcss": "^8",
