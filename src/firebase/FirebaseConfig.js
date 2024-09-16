@@ -56,7 +56,4 @@ export {
   updateDoc,
   serverTimestamp,
   storage,
-
-  // analytics,
-  analytics,
 };
