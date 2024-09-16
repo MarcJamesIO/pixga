@@ -28,32 +28,32 @@ export default class MapLoader {
       "Tree2",
       "/maps/test/Large Spruce Tree - TEAL - Spritesheet.png",
       {
-        frameWidth: 128,
-        frameHeight: 256,
+        frameWidth: 74,
+        frameHeight: 128,
       }
     );
     this.scene.load.spritesheet(
       "Tree3",
       "/maps/test/Large Spruce Tree - YELLOW - Spritesheet.png",
       {
-        frameWidth: 128,
-        frameHeight: 256,
+        frameWidth: 74,
+        frameHeight: 128,
       }
     );
     this.scene.load.spritesheet(
       "Tree4",
       "/maps/test/Bubble Pine Tree - GREEN_TEAL - Spritesheet.png",
       {
-        frameWidth: 128,
-        frameHeight: 256,
+        frameWidth: 51,
+        frameHeight: 91,
       }
     );
     this.scene.load.spritesheet(
       "Tree5",
       "/maps/test/Slim Spruce Tree - GREEN_TEAL - Spritesheet.png",
       {
-        frameWidth: 128,
-        frameHeight: 256,
+        frameWidth: 48,
+        frameHeight: 92,
       }
     );
 
@@ -193,22 +193,23 @@ export default class MapLoader {
               treeSpriteKey = "Tree1";
               treeAnimationKey = "Tree1Anim";
               break;
-            case 578: // GID for Tree2
+            case 602: // GID for Tree2
               treeSpriteKey = "Tree2";
               treeAnimationKey = "Tree2Anim";
               break;
-            case 579: // GID for Tree3
+            case 627: // GID for Tree3
               treeSpriteKey = "Tree3";
               treeAnimationKey = "Tree3Anim";
               break;
-            case 580: // GID for Tree4
+            case 682: // GID for Tree4
               treeSpriteKey = "Tree4";
               treeAnimationKey = "Tree4Anim";
               break;
-            case 581: // GID for Tree5
+            case 652: // GID for Tree4
               treeSpriteKey = "Tree5";
               treeAnimationKey = "Tree5Anim";
               break;
+
             default:
               console.warn(`Unknown tree gid: ${gid}`);
               break;
